@@ -1,0 +1,27 @@
+package com.cricket;
+
+public class CricketDetails {
+	
+         public void cricketTotalPlayers() {
+        	 System.out.println("11");
+         }
+     
+         public void cricketBatman() {
+           System.out.println("2");
+         }
+	   public void cricketBountry() {
+		   System.out.println("4,6");	
+	   }
+	
+	
+	public static void mani(String[] argm ) { 
+		CricketDetails rocket =new CricketDetails();
+		
+		rocket.cricketBatman();	
+		rocket.cricketBountry();
+	    rocket.cricketTotalPlayers();
+		
+	}
+ 
+	
+}

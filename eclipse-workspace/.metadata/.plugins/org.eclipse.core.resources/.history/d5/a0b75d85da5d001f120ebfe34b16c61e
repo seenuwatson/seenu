@@ -1,0 +1,14 @@
+package try_static;
+
+public class demo {
+	public void show1() {
+		System.out.println("kanguva");
+	}
+	public void show2() {
+		System.out.println("GOAT");
+	}
+	public static void main(String[] args) {
+		try s=new try();
+	}
+
+}

@@ -1,0 +1,37 @@
+package org.logicaljavatechinc;
+
+public class swapNumber {
+	public void method1 () {
+		int a=10;
+		int b=50;
+		
+		System.out.println("Before swapping "+" a="+a+"  b="+b);
+		a=a-b;
+		b=a+b;
+	    a=b-a;
+		System.out.println("after swapping" +" a="+a+"  b="+b);
+}
+		public void method2(){
+		int a=10; int b=50;
+		System.out.println("Before swapping "+" a="+a+"  b="+b);
+		a=a*b;
+		b=a/b;
+	    a=a/b;
+		System.out.println("after swapping" +" a="+a+"  b="+b);
+		}
+		public void methodThirdVariable() {
+			int mySalary= 30000;
+			int myManagerSalary=55000;
+			 int swop;
+			 System.out.println("Before salary "+" mySalary" + mySalary+ "myManagerSalary "+myManagerSalary);
+			 
+			
+		}
+		
+	public static void main(String[] args) {
+		
+		swapNumber swap =new swapNumber();
+		swap.methodThirdVariable();
+	}
+
+}

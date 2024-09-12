@@ -1,0 +1,22 @@
+package com.seenudatails;
+
+public class seenudatails {
+	 
+	public void seenuName() {
+		System.out.println("seenu vasan");
+	
+	}
+	 public void seenuNumber() {
+		 System.out.println("999486808");
+	 }
+	public void seenuAge() {
+		System.out.println("23");	}
+	 
+	 public static void main (String [] args ) {
+		 seenudatails san=new seenudatails();
+		 san.seenuName();
+		 san.seenuNumber();
+		 san.seenuAge();
+		 
+	 }
+}

@@ -1,0 +1,26 @@
+package seenuCrickeet;
+
+public class seenucrickt {
+
+	public static void main(String[] args) {
+	
+	 System.out.println("99notout");
+	 
+	 
+	   seenucrickt cricket=new seenucrickt();
+		 cricket.notoutseenu();
+	 
+	 
+	
+	 
+	}
+	
+	public void notoutseenu() {
+	  System.out.print("batman");
+	
+	
+	
+	
+	
+	} 
+}

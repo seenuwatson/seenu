@@ -1,0 +1,57 @@
+package set;
+
+import java.util.HashSet;
+
+public class hashset  {
+	
+	public static void main(String[] args) {
+		 
+		HashSet<Comparable> s =new HashSet<Comparable>();
+		int num = 44;
+				
+		s.add("ajith");
+		s.add(45);
+		s.add("seenu");
+		s.add("DEEPIKA");
+		s.add("KANNAN");
+		s.add(46);
+		s.add(num);
+		s.add(null);
+		s.add(null);
+		s.add(0);
+	
+		
+		
+//		s.add(2);
+//		s.add(8);
+//		s.add(20);
+//		s.add(1);
+//		s.add(4);
+		
+		
+	 System.out.println(s);
+	 System.out.println(s.size());
+	 
+	 boolean contains = s.contains("seenu");
+	 System.out.println(contains);
+	 
+	 System.out.println("***********");
+		
+		for (Comparable a : s) {
+			System.out.println(a);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

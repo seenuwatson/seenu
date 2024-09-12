@@ -1,0 +1,32 @@
+package com.dhoni;
+
+public class DhoniDetails {
+	
+	private void dhoniNumber() {
+	System.out.print("999486808");
+	}
+	private void dhoniHome() {
+		System.out.print("ranchi");
+	}
+	public void dhoniWife() {
+		System.out.print("agarwal");
+	}
+	private void dhoniBatName() {
+		System.out.print("MRF");  
+	}
+	
+	public static void main(String [] arms ) {
+		 System.out.print("seenu");
+		System.out.print("dhoni");
+		DhoniDetails dhoni=new DhoniDetails();
+	 
+		 dhoni.dhoniNumber();
+    dhoni.dhoniHome();
+    dhoni.dhoniWife();
+    dhoni.dhoniBatName();
+
+	 
+	
+	
+	}
+}

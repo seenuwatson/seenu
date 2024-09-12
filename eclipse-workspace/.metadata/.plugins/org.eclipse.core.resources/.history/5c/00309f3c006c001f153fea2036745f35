@@ -1,0 +1,35 @@
+package org.logicaljavatechinc;
+
+public class sample {
+	static String name="seenivasan";
+	public void mathod() {
+		String name="seenu";
+		StringBuffer buffer= new StringBuffer();
+		buffer.append(name);
+		StringBuffer reverse = buffer.reverse();
+		System.out.println(reverse);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public  static void main (String[]args) {
+		sample san=new sample();
+		san.mathod();
+		System.out.println(name);
+	}
+
+}

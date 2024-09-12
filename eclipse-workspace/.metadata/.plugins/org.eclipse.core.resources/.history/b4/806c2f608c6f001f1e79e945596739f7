@@ -1,0 +1,45 @@
+package org.student;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class sample {
+	public static void main(String[] args) {
+		Set ai=new HashSet();
+		ai.add("seenu");
+		ai.add("ajith");
+		ai.add("kannan");
+		Iterator iterator = ai.iterator();
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+		 
+	Map <String , Integer> as=new HashMap();
+	as.put("csk", 5);
+	as.put("mi", 4);
+	as.put("rcb", 3);
+	 
+	Iterator<Entry<String, Integer>> iterator2 = as.entrySet().iterator();
+	
+	while (iterator2.hasNext()) {
+		System.out.println(iterator2.next());
+	}
+	for (Object list : as.entrySet()) {
+		System.out.println(list);		
+	}
+	
+		Collection<Integer> values = as.values();
+		for (Integer integer : values) {
+			System.out.println(integer);
+			
+		}
+	
+			
+				
+			
+}}

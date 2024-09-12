@@ -1,0 +1,22 @@
+package task_Day_3;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class takeNumber6 {
+
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.redbus.in/");
+		
+		WebElement btnAcc = driver.findElement(By.xpath("//i[@class='icon icon-down icon_secondary_item_more']"));
+		btnAcc.click();
+		
+		
+		
+		driver.close();
+	}
+
+}

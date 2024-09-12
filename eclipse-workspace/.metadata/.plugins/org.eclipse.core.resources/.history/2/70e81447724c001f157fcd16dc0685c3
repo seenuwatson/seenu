@@ -1,0 +1,19 @@
+package org.override;
+
+public class SBI extends HDFC {  //child
+ 
+	@Override                                           
+	public void fixed() {
+		
+	}
+	 public void saving() {
+	    	System.out.println("70");
+	    }
+	public static void main (String []args) {
+		SBI san=new SBI();
+		san.saving();
+		san.deposit();
+		san.fixed();
+			
+	}
+}

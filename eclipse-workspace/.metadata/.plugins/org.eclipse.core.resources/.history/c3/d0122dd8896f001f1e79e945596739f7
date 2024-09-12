@@ -1,0 +1,19 @@
+package org.student;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class sample {
+	public static void main(String[] args) {
+		Set ai=new HashSet();
+		ai.add("seenu");
+		ai.add("ajith");
+		ai.add("kannan");
+		Iterator iterator = ai.iterator();
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+		
+
+}}

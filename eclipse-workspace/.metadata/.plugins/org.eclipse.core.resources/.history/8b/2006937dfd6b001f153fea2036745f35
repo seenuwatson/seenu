@@ -1,0 +1,28 @@
+package org.logicaljavatechinc;
+
+public class stringReverse {
+	public void usingBuffer() {
+		String name ="DEEPIKA";
+		StringBuffer buffer= new StringBuffer();
+		buffer.append(name);
+		StringBuffer reverse = buffer.reverse();
+		System.out.println(reverse);
+	}
+	
+	public void logic() {
+		String name= "KANNAN";
+		char[] charArray = name.toCharArray();
+		String name1="";
+		for (int  i = charArray.length-1; i >= 0; i--) {
+			name1= name1+charArray[i];
+		}
+	 System.out.println(name1);
+	}
+	
+	
+public static void main(String[] args) {
+	stringReverse  s=new stringReverse();
+	s.usingBuffer();
+	s.logic();
+}
+}

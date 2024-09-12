@@ -1,0 +1,16 @@
+!SESSION 2024-09-12 09:52:14.059 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=17.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file C:\Users\Lenovo\eclipse-workspace\.metadata\.bak_0.log
+Created Time: 2024-09-12 10:07:08.396
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-12 10:07:08.403
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-12 10:07:08.413
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

@@ -1,0 +1,37 @@
+package org.logicaljavatechinc;
+
+public class sample {
+	 String name="seenivasan";
+	public void mathod() {
+		
+		StringBuffer buffer= new StringBuffer();
+		buffer.append(name);
+		StringBuffer reverse = buffer.reverse();
+		System.out.println(reverse);
+	}
+	
+	public void method2() {
+		
+	char[] charArray = name.toCharArray();
+	String deepika="";
+		for (int i=charArray.length-1; i>=0;i--) {
+			deepika=deepika+charArray[i];		
+		}
+		
+		}
+	String deepika="";
+		 public void seenu() {
+			 System.out.println("seenu"+deepika);
+
+	
+		 }
+	
+	public  static void main (String[]args) {
+		sample san=new sample();
+		san.mathod();
+	 san.method2();
+	 san.seenu();
+		
+
+}
+}

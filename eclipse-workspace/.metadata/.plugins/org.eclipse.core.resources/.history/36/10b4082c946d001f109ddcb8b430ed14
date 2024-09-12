@@ -1,0 +1,29 @@
+package org.logicaljavatechinc;
+
+import java.util.Scanner;
+
+
+
+
+
+public class trianglePattern {
+	public void method1() {
+		Scanner scanner =new Scanner(System.in);
+		int numberofPattern=scanner.nextInt();
+		
+		int row , colume=0;
+		
+		for (row=0 ; row<=numberofPattern;row++) {
+			
+			for (colume =0 ; colume<=row;colume++) {
+				System.out.println("$");	
+			}
+			
+		}
+   
+}
+	public static void main(String[] args) {
+		trianglePattern san=new trianglePattern();
+		san.method1();
+	}
+}

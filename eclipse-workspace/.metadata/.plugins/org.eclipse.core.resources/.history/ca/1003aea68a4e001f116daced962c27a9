@@ -1,0 +1,13 @@
+package org.loop;
+
+public class Test_1 {
+	public static void main (String []args) {
+
+		System.out.println("---Prime Numbers From 1 To 100---");
+
+		for(int a=1; a<100;a++) {
+			System.out.println(a);
+		}
+				
+	}
+}

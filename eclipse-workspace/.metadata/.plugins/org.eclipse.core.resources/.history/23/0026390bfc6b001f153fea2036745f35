@@ -1,0 +1,18 @@
+package org.logicaljavatechinc;
+
+public class stringReverse {
+	public void seenu() {
+		String name ="DEEPIKA";
+		StringBuffer buffer= new StringBuffer();
+		buffer.append(name);
+		StringBuffer reverse = buffer.reverse();
+		System.out.println(reverse);
+		
+	}
+	
+	
+public static void main(String[] args) {
+	stringReverse  s=new stringReverse();
+	s.seenu();
+}
+}

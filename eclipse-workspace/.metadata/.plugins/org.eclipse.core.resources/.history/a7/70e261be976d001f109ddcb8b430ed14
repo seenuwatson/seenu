@@ -1,0 +1,19 @@
+package org.logicaljavatechinc;
+
+public class sample1 { 
+	public static void main(String[] args) {
+		String name ="seenu";
+		char[] charArray = name.toCharArray();
+		for (int i = charArray.length; i<=5;i++) {
+			System.out.println(charArray[i]);
+			
+		}
+		
+		
+	}
+	
+	
+	
+	
+
+}

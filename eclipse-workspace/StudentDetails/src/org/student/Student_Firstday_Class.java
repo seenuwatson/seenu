@@ -1,0 +1,30 @@
+package org.student;
+
+public class Student_Firstday_Class { 
+	
+	public void studentName() {
+		 System.out.println("seenu");
+		 System.out.println("deeeeee");
+		}
+		
+		public void studentMerks() {
+			System.out.println("46478");		}
+		
+		public void studentMobile() {
+		 System.out.println("9994816808");
+		}
+  
+
+	public static void main(String[] arge) {   
+		
+		
+		// any program run public static void main(String[] arge) important
+		Student_Firstday_Class	 student=new Student_Firstday_Class();
+			student.studentMerks();
+			student.studentName();
+			student.studentMobile();
+			
+    	
+    }
+
+}

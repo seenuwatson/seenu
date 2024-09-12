@@ -1,0 +1,20 @@
+package seenuCrickeet;
+
+public class SeenuCricket {
+
+	public void display() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void notoutseenu() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.surya;
+
+import org.student.Student_Firstday_Class;
+public class SuryaDetails {
+
+	 private void suryaSayHi() { 
+		 System.out.println("HAY HELLO I AM SURYA ...");
+	 }
+	 public void  suryaMovie() {
+		 System.out.println("kanguva");
+	 } 
+	
+	private void suryaNumberofmovie() {
+		System.out.println("42");
+	}
+	 
+	public static void main (String [] argm) {
+		   
+		SuryaDetails ngk =new SuryaDetails();
+	
+	     ngk.suryaSayHi();
+	     ngk.suryaMovie();
+	     ngk.suryaNumberofmovie();
+	      
+	     SuryaDetails student=new SuryaDetails();
+	       	student.studentName();
+	}
+	
+	
+}

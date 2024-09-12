@@ -1,0 +1,61 @@
+package org.logicaljavatechinc;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.ListIterator;
+
+public class stringReverse {
+	public void usingBuffer() {
+		String name ="DEEPIKA";
+		StringBuffer buffer= new StringBuffer();
+		buffer.append(name);
+		StringBuffer reverse = buffer.reverse();
+		System.out.println(reverse);
+	}
+	
+	public void logic() {
+		String name= "KANNAN";
+		char[] charArray = name.toCharArray();
+		String name1="";
+		for (int  i = charArray.length-1; i >= 0; i--) {
+			name1= name1+charArray[i];
+		}
+	 System.out.println(name1);
+	}
+	public void listitreater() {
+		String name="SEENIVASAN";
+		
+		char[] charArray = name.toCharArray();
+		List list =new ArrayList<>();
+		
+		for (Object object : charArray) {
+		list.add(object);	
+		}
+		Collections.reverse(list);
+		ListIterator listIterator = list.listIterator();
+		
+		
+		while (listIterator.hasNext()) {
+		System.out.println(listIterator.next());
+			
+		}
+	}
+	public void fff() {
+		 
+	    String dhoni="ajith";
+	    
+	   char[] charArray = dhoni.toCharArray();
+	   
+	   for (int i = charArray.length-1; i >=0; i--) {
+		   System.out.println(charArray[i]);}
+	}
+	
+public static void main(String[] args) {
+	stringReverse  s=new stringReverse();
+	s.usingBuffer();
+	s.logic();
+	s.listitreater();
+	s.fff();
+}
+}

@@ -1,0 +1,24 @@
+package org.logicaljavatechinc;
+
+public class swapNumber {
+	public static void main(String[] args) {
+		{
+		int a=10;
+		int b=50;
+		
+		System.out.println("Before swapping "+" a="+a+"  b="+b);
+		a=a-b;
+		b=a+b;
+	    a=b-a;
+		System.out.println("after swapping" +" a="+a+"  b="+b);}
+		
+		{int a=10; int b=50;
+		System.out.println("Before swapping "+" a="+a+"  b="+b);
+		a=a*b;
+		b=a/b;
+	    a=b/a;
+		System.out.println("after swapping" +" a="+a+"  b="+b);}
+		
+	}
+
+}

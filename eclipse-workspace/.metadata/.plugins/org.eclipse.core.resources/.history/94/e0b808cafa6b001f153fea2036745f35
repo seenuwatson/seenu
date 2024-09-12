@@ -1,0 +1,13 @@
+package org.logicaljavatechinc;
+
+public class stringReverse {
+	public void seenu() {
+		System.out.println("seenu");
+	}
+	
+	
+public static void main(String[] args) {
+	stringReverse  s=new stringReverse();
+	s.seenu();
+}
+}
