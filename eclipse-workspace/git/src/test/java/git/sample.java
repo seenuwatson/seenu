@@ -12,11 +12,19 @@ public class sample {
 	public void method3() {
 		System.out.println("Helllo");
 	}
-	public static void main(String[] args) {
-		sample s=new sample();
-		s.method();
-		s.method2();
-		s.method3();
+	
 			
+	private void Dhoni() {
+		System.out.println("Captain");
+
+	}
+	private void Sachin() {
+		System.out.println("Vice Captain");
+
+	}
+	 
+	private void Kholi() {
+		System.out.println("Player");
+
 	}
 }
